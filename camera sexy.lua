@@ -6,10 +6,4 @@ function onUpdatePost()
     mouseY = -359 + getMouseY('other')
     setProperty('camera.x', mouseX/intensidade_divisao*multiplicacao_sexual)
     setProperty('camera.y', mouseY/intensidade_divisao*multiplicacao_sexual)
-    end
-
-function onCreatePost()
-    if lowQuality then
-        close(true)
-    end
 end
