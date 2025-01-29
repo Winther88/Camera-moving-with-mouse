@@ -28,3 +28,7 @@ function onTimerCompleted(tag)
         winNum = winNum + 1
     end
 end
+
+function onDestroy() --special thanks to SantiagoCalebe for this function, i didn't know that
+    setPropertyFromClass("openfl.Lib", "application.window.title", config.windowName)
+end
