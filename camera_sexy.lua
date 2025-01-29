@@ -1,4 +1,4 @@
---script by Winther_88
+--script by Winther_88: https://www.youtube.com/@lorenzolo2264
 
 local intensidade_divisao = 6000
 local multiplicacao_sexual = 100
