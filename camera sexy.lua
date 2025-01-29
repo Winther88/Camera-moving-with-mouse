@@ -1,5 +1,7 @@
-local intensidade_divisao = 6000 --onde a preguiça leva a pessoa...
-local multiplicacao_sexual = 100 --sou gay (mentira)
+--script by Winther_88
+
+local intensidade_divisao = 6000
+local multiplicacao_sexual = 100
 
 function onUpdatePost()
     mouseX = -638 + getMouseX('other')
